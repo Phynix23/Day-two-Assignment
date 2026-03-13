@@ -45,13 +45,13 @@
 //   console.log()
 // }
 
-let baseNumber = 100
+// let baseNumber = 100
 
-for(let i=1;i<=120;i++){   
-     console.log(`${baseNumber} x ${i} = ${baseNumber*i}`)
-if(i==120 && baseNumber < 120){
-    i=0
-    baseNumber++
-    }
+// for(let i=1;i<=120;i++){   
+//      console.log(`${baseNumber} x ${i} = ${baseNumber*i}`)
+// if(i==120 && baseNumber < 120){
+//     i=0
+//     baseNumber++
+//     }
 
-}
+// }

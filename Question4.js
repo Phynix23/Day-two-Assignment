@@ -11,8 +11,7 @@ for (let i = 1; i <= 4; i++) {
         console.log(word.toUpperCase());
     } else if (word.length < 4) {
         console.log(word.toLowerCase());
-    } else {  // exactly 4 letters
-        // Title case: first letter uppercase, rest lowercase
+    } else {  
         let titleCase = word[0].toUpperCase() + word.slice(1).toLowerCase();
         console.log(titleCase);
     }
